@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 10px 10px -15px #111;
+}
+.restaurantName {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 36px;
+  cursor: pointer;
+  margin: 0px;
+}
+.cartContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.myOrders {
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #585555;
+  margin-right: 10px;
+}
+.cartIcon {
+  width: 40px;
+  height: 40px;
+}
+.cartIconContainer {
+  position: relative;
+  margin-left: 20px;
+}
+.cartCountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -23px;
+  right: -23px;
+}
+.cartCount {
+  text-align: center;
+  background-color: #ff6347;
+  padding: 4px 2px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 25px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 576px) {
+  .restaurantName {
+    font-size: 25px;
+  }
+  .myOrders {
+    display: none;
+  }
+}

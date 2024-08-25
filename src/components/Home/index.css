@@ -1,0 +1,9 @@
+.homeContainer {
+  width: 100vw;
+}
+
+.FoodListContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+}

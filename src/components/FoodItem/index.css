@@ -1,0 +1,101 @@
+.dishItemContainer {
+  display: flex;
+  border: 1px splid gray;
+  border-radius: 12px;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.vegBorder {
+  border: 1px solid green;
+  align-self: flex-start;
+}
+.nonVegBorder {
+  border: 1px solid rgb(111, 3, 3);
+}
+.vegRound {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 5px;
+}
+.nonVegRound {
+  background-color: rgb(111, 3, 3);
+}
+.dishDetailsContainer {
+  flex-grow: 1;
+}
+.dishName {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 0;
+}
+.dishCurrencyPrice {
+  color: #403b3b;
+  font-weight: 600;
+  font-size: 16px;
+}
+.dishDescription {
+  color: #aeb5bd;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.controllerContainer {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  min-width: 150px;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: green;
+}
+.button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 26px;
+}
+.quantity {
+  margin: 0px 10px;
+  color: #ffff;
+  font-size: 18px;
+}
+.notAvailabilityText {
+  font-size: 25px;
+  color: rgb(112, 17, 17);
+  margin: 5px 0;
+  font-weight: 700;
+}
+.addonAvailabilityText {
+  font-size: 25px;
+  color: #734ff4;
+  font-weight: 700;
+}
+.dishCalories {
+  min-width: 150px;
+  max-width: 250px;
+  font-size: 25px;
+  font-weight: bold;
+  align-self: center;
+  color: rgb(206, 107, 21);
+}
+.dishImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 576px) {
+  .dishCalories,.notAvailabilityText,.addonAvailabilityText {
+    font-size: 18px;
+  }
+  }
